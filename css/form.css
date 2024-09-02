@@ -1,0 +1,129 @@
+
+   .box-form{
+    
+    max-width: 40%;
+    margin: auto;
+    background-color: white; 
+    border-radius: 10px 10px 20px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.836);
+   }
+ 
+   .box{
+    max-width: 100%;
+    width: auto;
+    margin: auto;
+    background-color: white; 
+    text-align: center;
+    display: center;
+   }
+   .casilla{
+    border-radius: 7px 7px 7px 7px;
+    height: 30px;
+    width: 90%;
+    border: solid 2px #EAEAEA;
+    background-color: #f7f6f6; 
+    outline: none;
+    display: flex;
+    
+   }
+   .casilla:focus 
+   {
+    border: solid #DEDFDF;
+   }
+   .btn{
+    border-radius: 7px  7px  7px  7px;
+    padding: 7px;
+    margin: auto;
+    background-color: #9ad9e2;
+    border-color: #9ad9e2;
+    cursor: pointer;
+   }
+   .btnv{
+    border-radius:  7px  7px  7px  7px;
+    padding: 7px;
+    margin: auto;
+    background-color: #0cc206;
+    border-color: #0cc206;
+    cursor: pointer;
+   }
+   .btng{
+    border-radius:  7px  7px  7px  7px;
+    padding: 7px;
+    margin: auto;
+    background-color: #c5c4bf;
+    border-color: #c5c4bf;
+    cursor: pointer;
+   }
+   .btnr{
+    border-radius:  7px  7px  7px  7px;
+    padding: 7px;
+    margin: auto;
+    background-color: #ff3232;
+    border-color: #e93f3f;
+    cursor: pointer;
+   }
+   .row{
+    padding: 10px;
+    padding-left:20px;
+    padding-right:5px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 10px; 
+    font-weight: bold;
+  }
+  .Name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width:auto;
+  }
+  
+  .box-left{
+    max-width: auto;
+    margin: auto;
+    background-color: white; 
+    text-align: left;
+    width:30%;
+    margin: 0;
+    grid-template-columns: 20%; 
+    font-weight: bold;
+    border-radius: 20px 20px 20px 20px;
+   }
+   
+  .box-form {
+  max-width: 40%;
+  margin: auto;
+  background-color: white; 
+  border-radius: 10px 10px 20px 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.836);
+  }
+  
+  th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  }
+  th {
+  background-color: #f2f2f2;
+  }
+  
+  .box-derecha{
+  max-width: auto;
+  margin: auto;
+  background-color: white; 
+  text-align: left;
+  width:30%;
+  margin: 0;
+  grid-template-columns: 20%; 
+  font-weight: bold;
+  border-radius: 20px 20px 20px 20px;
+  
+  }
+  
+  .btnv, .btng {
+    color: white;
+    font-weight: bold; /* Hace el texto en negrita */
+}
