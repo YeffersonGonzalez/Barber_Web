@@ -11,6 +11,8 @@ include 'controllers/conexion_bd.php';
     <title>Admin</title>
     <!-- ======= Styles ====== -->
     <link rel="stylesheet" href="css/style.css">
+   
+    <link rel="stylesheet" href="./css/form.css">
     
     
     <!-- FullCalendar CSS -->
@@ -41,10 +43,15 @@ include 'controllers/conexion_bd.php';
                 </button>
                 </label>
             </div>
+            
+            <div>
+            <a href='agendar_cita.php' class='btnv' style=' text-decoration:none'>Agendar</a>
+            </div>
 
             <div class="user">
                 <img src="assets/imgs/customer01.jpg" alt="">
             </div>
+            
         </div>
          <br>
         <!-- Aquí se mostrará el calendario -->

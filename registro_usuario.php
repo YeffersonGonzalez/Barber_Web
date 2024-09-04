@@ -28,26 +28,25 @@
 
     <!-- ========================= Main ==================== -->
     <div class="main">
-        <div class="topbar">
-            <div class="toggle">
-                <ion-icon name="menu-outline"></ion-icon>
-            </div>
+    <div class="topbar">
+                <div class="toggle">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
 
-            <div >
-                
-            </div>
-
-            <div class="user">
-                <img src="assets/imgs/customer01.jpg" alt="">
-            </div>
-        </div>
-        <div class="search Name">
-                <label>
+                <div class="search">
+                    <label>
                     <button class="" type="submit">
-                        <input class="" type="search" placeholder="Search" aria-label="Search">
+                    <input class="" type="search" placeholder="Search" aria-label="Search">
                     </button>
-                </label>
+                        
+                    </label>
+                </div>
+
+                <div class="user">
+                    <img src="assets/imgs/customer01.jpg" alt="">
+                </div>
             </div>
+        
             <br>
         <div class="box-form ">
      
@@ -82,7 +81,7 @@
                 
                 
                 <div><br>
-                    <input type="submit" class="btnv" value="Guardar">
+                    <input type="submit" class=" btnv" value="Guardar">
                     <a href='index.php' class='btng' style=' text-decoration:none'>Cancelar</a>
                 </div> 
                 
