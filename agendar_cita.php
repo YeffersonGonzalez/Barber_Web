@@ -11,6 +11,7 @@ include 'controllers/conexion_bd.php';
     <title>Admin</title>
     <!-- ======= Styles ====== -->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/form.css">
     
     
 </head>
@@ -45,23 +46,32 @@ include 'controllers/conexion_bd.php';
                 <div class="user">
                     <img src="assets/imgs/customer01.jpg" alt="">
                 </div>
+            </div><br>
+        <div class="box-form "> 
+         <form id="agendarCitaForm"><div>
+         <br>
+           <h1 class="Name">Agendar</h1><br>
+           </div>
+            <div class="row ">
+            <div>
+                <label for="cliente_id">Cliente:</label>
+                <select id="cliente_id" class="casilla"  name="cliente_id" required>
+                    <!-- Opciones dinámicas desde la base de datos -->
+                </select>
             </div>
 
-            <form id="agendarCitaForm">
-                <label for="cliente_id">Cliente:</label>
-                <select id="cliente_id" name="cliente_id" required>
-                    <!-- Opciones dinámicas desde la base de datos -->
-                </select>
-
+            <div>
                 <label for="barbero_id">Barbero:</label>
-                <select id="barbero_id" name="barbero_id" required>
+                <select id="barbero_id" class="casilla"  name="barbero_id" required>
                     <!-- Opciones dinámicas desde la base de datos -->
                 </select>
-
+            </div>
+            <div>
                 <label for="servicio_id">Servicio:</label>
-                <select id="servicio_id" name="servicio_id" required>
+                <select id="servicio_id" class="casilla" name="servicio_id" required>
                     <!-- Opciones dinámicas desde la base de datos -->
                 </select>
+            </div>    
 <script>
                 document.addEventListener('DOMContentLoaded', function() {
     fetch('./api/api_get_clientes.php')
@@ -101,16 +111,25 @@ include 'controllers/conexion_bd.php';
         });
 });
 </script>
-
+                <div>
                 <label for="fecha">Fecha:</label>
-                <input type="date" id="fecha" name="fecha" required>
-
+                <input type="date" class="casilla"  id="fecha" name="fecha" required>
+                </div>
+                <div>
+                <br>
+                <input type="submit" class="btnv"  value="Agendar Cita">
+                </div>
+                <div>
                 <label for="hora">Hora:</label>
-                <input type="time" id="hora" name="hora" required>
+                <input type="time"class="casilla"  id="hora" name="hora" required>
+                </div>
+                
+                
 
-                <input type="submit" value="Agendar Cita">
+                </div><br><br>
+
             </form>
-
+            </div>
             <div id="respuesta"></div>
 
 
