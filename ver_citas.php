@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Citas</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/form.css">
 </head>
 <body>
     <!-- =============== Navigation ================ -->
@@ -36,10 +37,14 @@
         </div>
 
         <!-- =========== Content ========== -->
-        <div class="content">
+        <br>
+        
+        <div class="content" >
             <div class="container">
-                <h2>Lista de Citas</h2>
-                <table id="tablaCitas">
+                
+                <h2 class="Name">Lista de Citas</h2>
+            
+                <table class="row Name" id="tablaCitas">
                     <thead>
                         <tr>
                             <th>ID</th>
@@ -57,6 +62,7 @@
             </div>
         </div>
     </div>
+ 
 
     <!-- =========== Scripts =========  -->
     <script src="assets/js/main.js"></script>
@@ -89,3 +95,4 @@
     </script>
 </body>
 </html>
+
