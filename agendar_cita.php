@@ -125,12 +125,12 @@ include 'controllers/conexion_bd.php';
                 </div>
                 
                 
-
-                </div><br><br>
-
+                <div id="respuesta"></div><br><br>
+                </div>
+        
             </form>
             </div>
-            <div id="respuesta"></div>
+            
 
 
             

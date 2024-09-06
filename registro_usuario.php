@@ -50,7 +50,7 @@
             <br>
         <div class="box-form ">
      
-     <form role="form" name="frm_crear" id="frm_crear" method="POST" enctype="multipart/form-data" >
+     <form role="form" name="registroForm" id="registroForm" method="POST" enctype="multipart/form-data" action="api/api_registro.php" >
          
          <div>
             <br>

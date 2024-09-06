@@ -1,5 +1,5 @@
 <?php 
-require ("../models/models_admin.php");
+require ("controllers/conexion_bd.php");
 
 include "../controllers/controller_consultas_backend.php";
 ?>

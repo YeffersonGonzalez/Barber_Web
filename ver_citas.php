@@ -42,7 +42,7 @@
         <div class="content" >
             <div class="container">
                 
-                <h2 class="Name">Lista de Citas</h2>
+                <h2 class="Name">Lista de Citas</h2><br>
                 <div class="Name">
                 <table  id="tablaCitas">
                     <thead>
