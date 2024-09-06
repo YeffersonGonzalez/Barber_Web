@@ -35,11 +35,20 @@
                 </li>
 
                 <li>
-                    <a href="#">
+                    <a href="agendar_cita.php">
+                        <span class="icon">
+                            <ion-icon name="people-outline"></ion-icon>
+                        </span>
+                        <span class="title">Agendar Cita</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="ver_citas.php">
                         <span class="icon">
                             <ion-icon name="chatbubble-outline"></ion-icon>
                         </span>
-                        <span class="title">Ver mensajes</span>
+                        <span class="title">Ver Citas</span>
                     </a>
                 </li>
 
