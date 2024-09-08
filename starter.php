@@ -9,8 +9,9 @@ include 'controllers/conexion_bd.php';
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Admin</title>
-    <!-- ======= Styles ====== -->
+    <!-- ======= Styles ====== --><link rel="stylesheet" href="./css/adminlte.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/form.css">
     
     
 </head>

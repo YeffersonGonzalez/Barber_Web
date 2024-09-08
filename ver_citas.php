@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Citas</title>
+    <link rel="stylesheet" href="./css/adminlte.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/form.css">
+    
+   
 </head>
 <body>
     <!-- =============== Navigation ================ -->
@@ -39,12 +42,11 @@
         <!-- =========== Content ========== -->
         <br>
         
-        <div class="content" >
-            <div class="container">
+     
+                <h1 class="Name ">Lista de Citas</h1><br>
+            <div class="">
                 
-                <h2 class="Name">Lista de Citas</h2><br>
-                <div class="Name">
-                <table  id="tablaCitas">
+                <table class="table" id="tablaCitas">
                     <thead>
                         <tr>
                             <th>ID</th>
@@ -60,8 +62,8 @@
                     </tbody>
                 </table>
                 </div>
-            </div>
-        </div>
+            
+        
     </div>
  
 

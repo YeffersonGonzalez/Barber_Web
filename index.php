@@ -10,13 +10,16 @@ include 'controllers/conexion_bd.php';
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Admin</title>
     <!-- ======= Styles ====== -->
-    <link rel="stylesheet" href="css/style.css">
-   
+    <link rel="stylesheet" href="./css/adminlte.min.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/form.css">
+    
+    
     
     
     <!-- FullCalendar CSS -->
     <link href='https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.min.css' rel='stylesheet' />
+    
 </head>
 
 <body>

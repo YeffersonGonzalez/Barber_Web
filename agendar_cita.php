@@ -10,8 +10,15 @@ include 'controllers/conexion_bd.php';
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Admin</title>
     <!-- ======= Styles ====== -->
+    <link rel="stylesheet" href="./css/adminlte.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/form.css">
+    
+    
+ 
+   
+    
+    
     
     
 </head>
@@ -46,13 +53,14 @@ include 'controllers/conexion_bd.php';
                 <div class="user">
                     <img src="assets/imgs/customer01.jpg" alt="">
                 </div>
-            </div><br>
-        <div class="box-form "> 
-         <form id="agendarCitaForm"><div>
+            </div><br><h1 class="Name">Agendar</h1><br>
+        <div class="box-form"> 
+         <form id="agendarCitaForm" ><div>
          <br>
-           <h1 class="Name">Agendar</h1><br>
+           
            </div>
-            <div class="row ">
+            <div  class="row">
+                
             <div>
                 <label for="cliente_id">Cliente:</label>
                 <select id="cliente_id" class="casilla"  name="cliente_id" required>

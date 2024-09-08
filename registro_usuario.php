@@ -10,9 +10,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Admin</title>
     <!-- ======= Styles ====== -->
+     <link rel="stylesheet" href="./css/adminlte.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/form.css">
     
+   
 </head>
 
 <body>
@@ -48,15 +50,20 @@
             </div>
         
             <br>
-        <div class="box-form ">
+        <h1 class="Name">Usuario</h1><br>
      
      <form role="form" name="registroForm" id="registroForm" method="POST" enctype="multipart/form-data" action="api/api_registro.php" >
-         
+         <div class="">
          <div>
-            <br>
-           <h1 class="Name">Usuario</h1><br>
+            
+           
            </div>
-         <div class="row ">
+         <div class="box-form row"> 
+         <div>
+                
+                </div><div>
+                   
+                </div>
          <div>
                     <label for="nombre" >Nombre Completo:</label>
                     <input type="text" class="casilla"  id="nombre" name="nombre" required>
@@ -70,10 +77,11 @@
                     <label for="telefono" >Teléfono:</label>
                     <input type="text" class="casilla" id="telefono" name="telefono">
                 </div>
-
                 <div>
-                    <label for="tipo" >Tipo de Usuario:</label>
-                    <select id="tipo" name="tipo" class="casilla"required class="cardName">
+                <label for="tipo" >Tipo de Usuario:</label>
+                
+                    
+                    <select id="tipo" name="tipo" class="casilla" style="width: 192px" required class="cardName">
                         <option value="cliente">Cliente</option>
                         <option value="barbero">Barbero</option>
                     </select>
@@ -81,12 +89,14 @@
                 
                 
                 <div><br>
-                    <input type="submit" class=" btnv" value="Guardar">
+                    <input type="submit" class="btnv" value="Guardar">
                     <a href='index.php' class='btng' style=' text-decoration:none'>Cancelar</a>
-                </div> 
+                </div> <br>
                 
-                <div id="respuesta"></div>
-       </form> <br>
+                <div id="respuesta"><br></div>
+                </div>
+                </div>
+            </form> <br>
      </div>
 
 

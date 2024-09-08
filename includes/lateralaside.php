@@ -1,17 +1,17 @@
 
 
-<div class="container">
+<div class="">
        
-        <div class="navigation">
+        <div class="navigation btnm">
             
             <ul>
-                <li>
+                
                 <li>
                     <a href="index.php">
                     <span class="icon ">
                             <img src="./assets/imgs/barberia.png" alt="" height="42" width="42">
                         </span>
-                        <span class="title"><h4>BARBER_WEB</h4></span>
+                        <span class="title">BARBER_WEB</span>
                     </a>
                 </li>
 
@@ -72,6 +72,7 @@
                     </a>
                 </li>
             </ul>
+        </div>
         </div>
 
 <!-- /.sidebar -->
